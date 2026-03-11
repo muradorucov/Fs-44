@@ -1,0 +1,103 @@
+/* p {
+  color: red;
+  font-size: 30px;
+  background-color: blue;
+}
+
+h2 {
+  color: orange;
+  font-size: 30px;
+  text-shadow: 1px 1px 4px black;
+}
+
+.parag1 {
+  color: white;
+  padding: 30px;
+}
+
+.parag2 {
+  color: yellow;
+}
+
+.parag3 {
+  background-color: black;
+} */
+
+
+/* p {
+  color: yellow;
+  background-color: black;
+}
+
+#desc1 {
+  background-color: violet;
+}
+
+#desc2 {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#desc3 {
+  background-color: purple;
+}
+
+#desc4 {}
+
+.item1 {
+  color: red;
+}
+
+.item2 {
+  font-size: 30px;
+} */
+
+/* #desc {
+  color: green;
+} */
+
+/* .item {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+.item#desc.item4{
+  color: black;
+}  */
+
+/* id>class>tagname */
+
+
+/* #item1{
+  color: blue;
+} */
+
+
+p {
+  width: 600px;
+  color: red;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 30px;
+  line-height: 100px;
+  text-indent: 40px;
+  /* text-align: center; */
+  /* word-wrap:break-word;
+  word-break:keep-all; */
+  text-align: justify;
+  /* text-align-last: center; */
+  text-shadow: 3px 4px 10px rgb(14, 159, 255);
+  /* box-shadow: 3px 4px 10px 10px black; */
+}
+
+.letter {
+  font-size: 60px;
+  color: blue;
+}

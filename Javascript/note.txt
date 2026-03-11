@@ -1,0 +1,28 @@
+Programming paradigma 
+
+js 
+1.Input &OutPut
+2.Data types 
+3.Variables 
+4.Operators 
+5.If Else
+6.Loop 
+7.Function 
+8.Array 
+9.Object
+
+10.DOM&BOM 
+11.Event Loop & Apis
+
+
+
+let name = "Kenan"
+name = 45
+
+
+let <String> name = "Kenan";
+name = 45 <Error>
+
+
+Imperative => OOP=>C++=> Compliator=> Static
+Declerative => functional = > JS => Interperator => Dynamic

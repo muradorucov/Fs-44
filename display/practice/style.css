@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 1.8rem;
+  font-weight: 900;
+}
+
+h2+p {
+  margin-bottom: 3rem;
+}
+
+
+section {
+  width: 70%;
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+header {
+  width: 600px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 30px;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+/* html {} */
+
+:root {
+  font-size: 8px;
+}
+
+
+section {
+  font-size: 2rem;
+  /* 8px */
+}
+
+p {
+  font-size: 3em;
+}
+
+/* rem || em => 16px */

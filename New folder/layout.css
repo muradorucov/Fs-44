@@ -1,0 +1,184 @@
+.container {
+  width: 70%;
+  max-width: 1320px;
+  margin-inline: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 12 *2);
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: calc(100% / 12 *4);
+}
+
+.col-5 {
+  width: calc(100% / 12 *5);
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: calc(100% / 12 *7);
+}
+
+.col-8 {
+  width: calc(100% / 12 *8);
+}
+
+.col-9 {
+  width: calc(100% / 12 *9);
+}
+
+.col-10 {
+  width: calc(100% / 12 *10);
+}
+
+.col-11 {
+  width: calc(100% / 12 *11);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class^='col-'] {
+  padding-inline: 15px;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* xs, sm, md,lg,xl,xxl */
+/* sm,md,lg*/
+
+/*  md => 990px - 650px*/
+
+/* 990 - 650 */
+@media print and (max-width:990px) {
+  .col-md-1 {
+    width: calc(100% / 12);
+  }
+
+  .col-md-2 {
+    width: calc(100% / 12 *2);
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: calc(100% / 12 *4);
+  }
+
+  .col-md-5 {
+    width: calc(100% / 12 *5);
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: calc(100% / 12 *7);
+  }
+
+  .col-md-8 {
+    width: calc(100% / 12 *8);
+  }
+
+  .col-md-9 {
+    width: calc(100% / 12 *9);
+  }
+
+  .col-md-10 {
+    width: calc(100% / 12 *10);
+  }
+
+  .col-md-11 {
+    width: calc(100% / 12 *11);
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* 650 - 0 */
+@media print and (max-width:650px) {
+  .col-sm-1 {
+    width: calc(100% / 12);
+  }
+
+  .col-sm-2 {
+    width: calc(100% / 12 *2);
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: calc(100% / 12 *4);
+  }
+
+  .col-sm-5 {
+    width: calc(100% / 12 *5);
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-7 {
+    width: calc(100% / 12 *7);
+  }
+
+  .col-sm-8 {
+    width: calc(100% / 12 *8);
+  }
+
+  .col-sm-9 {
+    width: calc(100% / 12 *9);
+  }
+
+  .col-sm-10 {
+    width: calc(100% / 12 *10);
+  }
+
+  .col-sm-11 {
+    width: calc(100% / 12 *11);
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media print {
+  body{
+    background: red !important;
+  }
+  body::before {
+    content: "PRINT AKTİVDİR";
+    display: block;
+  }
+}

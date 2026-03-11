@@ -1,0 +1,20 @@
+h1,
+h2 {
+  background-color: yellow;
+  padding: 30px 40px;
+  font-size: 50px;
+  position: sticky;
+  /* top: 30px; */
+  bottom: 0px;
+}
+
+body{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: start;
+}
+h1,h2,p{
+  flex-shrink: 0;
+  flex-basis: 1000px;
+}

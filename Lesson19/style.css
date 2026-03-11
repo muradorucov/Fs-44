@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 53px;
+  background: #212121;
+  color: #fff;
+
+  .d-flex {
+    margin-inline: -15px;
+  }
+
+  a {
+    display: block;
+    padding-inline: 15px;
+  }
+
+  a:not(a:last-child) {
+    border-right: 2px #000 dashed;
+  }
+}
+
+nav {
+  width: 100%;
+  background: #00000099;
+  color: #FFF;
+  position: absolute;
+  padding-block: 10px;
+
+  .logo {
+    span {
+      font-weight: 200;
+      font-size: 13px;
+    }
+  }
+
+  .nav-right {
+    text-align: right;
+
+    span {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+
+  button {
+    width: 172px;
+    height: 46px;
+    border: none;
+    color: inherit;
+
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+  }
+}
+
+.container-test {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+#hero {
+  position: relative;
+  height: 800px;
+  background: url("./images/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

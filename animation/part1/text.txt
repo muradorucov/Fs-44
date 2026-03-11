@@ -1,0 +1,3 @@
+ease-in => asta => suret 
+ease-out => suret => asta
+ease-in-out => asta=> suret => asta

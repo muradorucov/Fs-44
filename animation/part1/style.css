@@ -1,0 +1,16 @@
+/* .box {
+  width: 100px;
+  height: 100px;
+  background: black;
+  transition: all 1s ease-in-out; */
+  /* transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out; */
+  /* transition-behavior: s; */
+/* } */
+
+
+/* .active {
+  background: red;
+  transform: translateX(100px) rotate(1080deg);
+} */

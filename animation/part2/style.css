@@ -1,0 +1,40 @@
+/* div {
+  --test: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+
+  span {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    animation-name: anim;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+} */
+
+
+/* @keyframes anim {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.4);
+  }
+} */

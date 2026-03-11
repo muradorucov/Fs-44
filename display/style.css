@@ -1,0 +1,29 @@
+/* none, block,inline,inline-block, flex ,grid */
+
+/* block width=> true, heigth=> true */
+/* inline width=> false, heigth=> false */
+/* inline-block width=> true, heigth=> true */
+
+
+/* a {
+  display: inline;
+  width: 100px;
+  height: 80px;
+  background-color: yellow;
+  color: black;
+  margin: 40px;
+} */
+/* 
+img {
+  width: 400px;
+  float: left;
+} */
+
+/* none, opacity,visiblity */
+
+/* img { */
+  /* display: none; */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  /* cursor: pointer;
+} */

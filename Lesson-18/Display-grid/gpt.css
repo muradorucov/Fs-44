@@ -1,0 +1,85 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 120px);
+  gap: 12px;
+  background: #333;
+  padding: 12px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Ümumi blok stili */
+.item {
+  border-radius: 4px;
+}
+
+/* Rənglər */
+.red   { background: #f24b42; }
+.cyan  { background: #33c7cf; }
+.gold  { background: #d8b56c; }
+.white { background: #fff; }
+
+/* GRID YERLƏŞMƏ */
+
+/* sol yuxarı qırmızı */
+.a {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+/* üst mavi */
+.b {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+
+/* üst sağ qızılı */
+.c {
+  grid-column: 4 / 7;
+  grid-row: 1 / 2;
+}
+
+/* sol alt ağ */
+.d {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+/* orta qızılı */
+.e {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+/* böyük ağ */
+.f {
+  grid-column: 3 / 6;
+  grid-row: 2 / 3;
+}
+
+/* sağ qırmızı */
+.g {
+  grid-column: 6 / 7;
+  grid-row: 2 / 4;
+}
+
+/* alt qırmızı */
+.h {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+
+/* alt mavi */
+.i {
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+}

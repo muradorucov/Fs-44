@@ -1,0 +1,76 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #333;
+    max-width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr;
+    padding: 15px;
+    width: 90%;
+    gap: 20px;
+
+}
+
+.item1 {
+    background-color: #F1463E;
+    grid-row: 1 / span 2;
+}
+
+.item2 {
+    background-color: #2CC4CF;
+    grid-column: 2 / span 2;
+}
+
+.item3 {
+    background-color: #D6B268;
+    grid-column: 4 / span 2;
+}
+
+.item4 {
+    background-color: #D6B268;
+    grid-row: 2 / span 2;
+   
+}
+
+.item5 {
+    background-color: #FFFFFF;
+    grid-column: 3 / span 2;
+    grid-row: 2 /span 2;
+    
+}
+
+.item6 {
+    background-color: #F1463E;
+    grid-row: 2 / span 3 ;
+    
+}
+
+.item7 {
+    background-color: #FFFFFF;
+    grid-row: 3 / span 2;
+    
+}
+
+.item8 {
+    background-color: #F1463E;
+    grid-column: 2 /span 2;
+   
+}
+
+.item9 {
+    background-color: #2CC4CF;
+    /* grid-column: 3 / span  ;    */
+    /* buraya bosh span yazmaq dogrudur?*/
+}

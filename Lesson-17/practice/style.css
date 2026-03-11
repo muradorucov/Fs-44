@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+img {
+  width: 100%;
+  object-fit: cover;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  line-height: 1.7;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 75%;
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+
+    ul {
+      display: flex;
+      gap: 30px;
+    }
+  }
+
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #343a40;
+      opacity: 0.9;
+      position: absolute;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      gap: 30px;
+      position: relative;
+    }
+  }
+
+
+
+}

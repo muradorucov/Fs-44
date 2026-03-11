@@ -1,0 +1,14 @@
+/* md */
+
+@media print and (max-width:990px) {
+  .service-box {
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  body {
+    background-color: yellow;
+  }
+}
