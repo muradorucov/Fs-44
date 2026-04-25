@@ -1,0 +1,13 @@
+/* .slider-img {
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-img.active {
+  opacity: 1;
+} */
+
+@import "tailwindcss";

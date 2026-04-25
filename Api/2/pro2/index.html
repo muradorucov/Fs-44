@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-gray-100 p-6">
+
+  <div class="max-w-5xl mx-auto  shadow-md rounded-xl overflow-hidden">
+    <div class="flex justify-between items-center mb-10">
+      <input type="search" placeholder="Search..." class="w-100 px-4 py-2 text-sm border border-gray-300 rounded-lg outline-none 
+           focus:ring-2 focus:ring-blue-500 focus:border-blue-500 
+           transition" 
+           id="searchInput"/>
+      <button class="px-3 py-1 text-xs bg-green-500 text-white rounded-lg hover:bg-blue-600" id="create">create</button>
+    </div>
+    <table class="bg-white min-w-full text-sm text-left text-gray-600">
+
+      <!-- Header -->
+      <thead class="bg-gray-200 text-gray-700 uppercase text-xs">
+        <tr>
+          <th class="px-6 py-3">ID</th>
+          <th class="px-6 py-3">Company Name</th>
+          <th class="px-6 py-3">Contact Name</th>
+          <th class="px-6 py-3">Contact Title</th>
+          <th class="px-6 py-3 text-center">Actions</th>
+        </tr>
+      </thead>
+
+      <!-- Body -->
+      <tbody></tbody>
+
+    </table>
+  </div>
+
+
+
+  <div id="createModal" class="fixed inset-0 bg-black/30 backdrop-blur-[10px] hidden justify-center items-center">
+    <div class="max-w-3xl mx-auto bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-xl font-semibold mb-6">Company Form</h2>
+
+      <form class="space-y-6" id="createForm">
+
+        <!-- Company Info -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input type="text" placeholder="Company Name"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+            name="companyName" />
+
+          <input type="text" placeholder="Contact Name"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+            name="contactName" />
+
+          <input type="text" placeholder="Contact Title"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+            name="contactTitle" />
+        </div>
+
+        <!-- Address -->
+        <div>
+          <h3 class="text-lg font-medium mb-3">Address</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="Street"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+              name="street" />
+
+            <input type="text" placeholder="City"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="city" />
+
+            <input type="text" placeholder="Region"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="region" />
+
+            <input type="text" placeholder="Postal Code"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+              name="postalCode" />
+
+            <input type="text" placeholder="Country"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="country" />
+
+            <input type="text" placeholder="Phone"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+              name="phone" />
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex justify-end gap-3">
+          <button type="submit" class="px-4 py-2 text-sm bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Save
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div id="updateModal" class="fixed inset-0 bg-black/30 backdrop-blur-[10px] hidden justify-center items-center">
+    <div class="max-w-3xl mx-auto bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-xl font-semibold mb-6">Update Company Form</h2>
+
+      <form class="space-y-6" id="updateForm">
+
+        <!-- Company Info -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input type="text" placeholder="Company Name"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+            name="companyName" />
+
+          <input type="text" placeholder="Contact Name"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+            name="contactName" />
+
+          <input type="text" placeholder="Contact Title"
+            class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+            name="contactTitle" />
+        </div>
+
+        <!-- Address -->
+        <div>
+          <h3 class="text-lg font-medium mb-3">Address</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="Street"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+              name="street" />
+
+            <input type="text" placeholder="City"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="city" />
+
+            <input type="text" placeholder="Region"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="region" />
+
+            <input type="text" placeholder="Postal Code"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+              name="postalCode" />
+
+            <input type="text" placeholder="Country"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500" name="country" />
+
+            <input type="text" placeholder="Phone"
+              class="w-full px-4 py-2 border rounded-lg outline-none focus:ring-2 focus:ring-blue-500 md:col-span-2"
+              name="phone" />
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex justify-end gap-3">
+          <button type="submit" class="px-4 py-2 text-sm bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            Save
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+
+
+
+</html>

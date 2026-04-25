@@ -1,0 +1,39 @@
+API 
+Application Programming Interface
+
+request 
+response 
+
+headers
+body 
+method
+
+let obj = {
+  headers:{},
+  body:{},
+  method:"POST"
+}
+
+
+
+Http methods => Get, Post,Put,Delete, Patch
+
+
+https://dummyjson.com/products
+
+https   => Protocol
+dummyjson => Domain (Second-level domain)
+.com => Top-Level Domain (TLD)
+products => route,pathname, endpoint
+
+
+
+https://dummyjson.com/products => GET => ALL 
+https://dummyjson.com/products => POST =>CREATE
+https://dummyjson.com/products/3 => GET => Single Product 
+https://dummyjson.com/products/3 => DELETE => DELETE 
+https://dummyjson.com/products/3 => PUT => UPDATE 
+https://dummyjson.com/products/3 => PATCH => EDIT 
+
+https://dummyjson.com/products?li%20%mit=10&page=3 
+

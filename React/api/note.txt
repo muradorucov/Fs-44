@@ -1,0 +1,69 @@
+1.Components 
+2.Props 
+3.State managment 
+4.Events 
+5.Forms 
+6.LifeCycles
+7.APIS 
+8.Routing
+
+https://northwind.vercel.app/api
+apiUrl = https://northwind.vercel.app/api/suppliers
+
+services =>
+getAllCompany
+apiUrl GET
+
+createCompany
+apiUrl POST 
+
+updateCompany
+apiUrl/id PUT
+
+deleteCompany
+apiUrl/id DELETE 
+https://northwind.vercel.app/api/suppliers/5
+
+getSingleCompany
+apiUrl/id GET
+
+
+
+Components=>
+CompanyList
+CreateCompany Form
+EditCompany Form 
+Single Company Component
+
+
+
+
+
+
+
+
+apiUrl = https://northwind.vercel.app/api/orders
+
+services =>
+getAllCompany
+apiUrl GET
+
+createCompany
+apiUrl POST 
+
+updateCompany
+apiUrl/id PUT
+
+deleteCompany
+apiUrl/id DELETE 
+
+getSingleCompany
+apiUrl/id GET
+
+
+
+Components=>
+CompanyList
+CreateCompany Form
+EditCompany Form 
+Single Company Component
