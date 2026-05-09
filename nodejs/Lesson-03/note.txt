@@ -1,0 +1,31 @@
+Book api 
+
+
+book create 
+all books 
+sinlge book 
+edit book 
+delete book 
+change status for book
+
+
+
+id
+title 
+descrption 
+author
+
+
+
+author 
+author create 
+author books 
+sinlge author 
+edit author 
+delete author with book's 
+change status for author with book's
+
+
+id,
+fullname 
+email

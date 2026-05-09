@@ -1,0 +1,13 @@
+
+// 1. Router => route => pathname => str
+// 2 & * =>>> cb => controller || middleware
+// app.post()
+// app.put()
+// app.patch()
+// app.delete()
+// swagger
+// postman
+
+
+// http://localhost:3300/about => GET
+// http://localhost:3300/contact => GET

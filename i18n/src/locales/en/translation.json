@@ -1,0 +1,14 @@
+{
+  "logo": "My App",
+  "navbar": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "footer": {
+    "text": "A simple React app with modern UI and clean structure. Built with TailwindCSS.",
+    "head1": "Navigation",
+    "head2": "Contact",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

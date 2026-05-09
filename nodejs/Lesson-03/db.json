@@ -1,0 +1,76 @@
+{
+  "authors": [
+    {
+      "id": "384394938434ubhbfg",
+      "fullName": "X Man",
+      "email": "xman@gmail.com",
+      "isDelete": true
+    },
+    {
+      "id": "efefefef34r4448gb",
+      "fullName": "X Man 2",
+      "email": "xman2@gmail.com",
+      "isDelete": false
+    },
+    {
+      "id": "778485ec-0996-4390-8766-2aeeaa4014dc",
+      "fullName": "Murad Oruc",
+      "email": "example@gmail.com",
+      "isDelete": false
+    },
+    {
+      "id": "30d14036-e9d3-43fd-b5ee-ae08e3043264",
+      "fullName": "Murad Oruc",
+      "email": "example@gmail.com",
+      "isDelete": false
+    },
+    {
+      "id": "5b7b9a80-9332-48f2-8d28-170b6b05aa7b",
+      "fullName": "Murad Oruc",
+      "email": "example@gmail.com",
+      "isDelete": false
+    },
+    {
+      "id": "ada1ed9c-beb3-4441-ada2-4d0124c4c653",
+      "fullName": "Maqa",
+      "email": "test",
+      "isDelete": true
+    },
+    {
+      "id": "d376e836-4a29-4b68-aa32-37d71a03f6b8",
+      "fullName": "Kamal Kamalli",
+      "email": "example@gmail.com",
+      "isDelete": false
+    }
+  ],
+  "books": [
+    {
+      "id": "ehfv43ury3483439h",
+      "authorId": "384394938434ubhbfg",
+      "title": "Bu bir Kitabdir",
+      "description": "lorem lorem lorem ",
+      "isDelete": true
+    },
+    {
+      "id": "483493gu4brf47uug",
+      "authorId": "384394938434ubhbfg",
+      "title": "Lorem lorem 2",
+      "description": "lorem lorem lorem 2",
+      "isDelete": false
+    },
+    {
+      "id": "483493gu4brf47uug",
+      "authorId": "efefefef34r4448gb",
+      "title": "Lorem lorem 3 For X Man 2",
+      "description": "lorem lorem lorem 3 X Man 2",
+      "isDelete": false
+    },
+    {
+      "id": "30946d41-08e1-4aa0-b6d3-b30c02c9268c",
+      "title": "Bu bir Kitabdir",
+      "description": "lorem lorem lorem 2",
+      "authorId": "efefefef34r4448gb",
+      "isDelete": false
+    }
+  ]
+}

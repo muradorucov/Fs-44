@@ -1,0 +1,14 @@
+{
+  "logo": "Mənim tətbiqim",
+  "navbar": {
+    "home": "Əsas səhifə",
+    "contact": "Əlaqə"
+  },
+  "footer": {
+    "text": "Müasir UI və təmiz strukturla sadə React tətbiqi. TailwindCSS ilə qurulmuşdur.",
+    "head1": "Naviqasiya",
+    "head2": "Əlaqə",
+    "email": "E-poçt",
+    "phone": "Telefon"
+  }
+}
