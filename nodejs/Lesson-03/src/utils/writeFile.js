@@ -1,8 +1,13 @@
 const fs = require("fs");
+const path = require("path");
 
 const writeFileUtil = (data) => {
-  fs.writeFileSync("./db.json", JSON.stringify(data, null, 2))
-}
+  const dbPath = path.join(process.cwd(), "db.json");
 
+  fs.writeFileSync(
+    dbPath,
+    JSON.stringify(data, null, 2)
+  );
+};
 
 module.exports = writeFileUtil;
