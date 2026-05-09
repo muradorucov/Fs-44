@@ -4,7 +4,7 @@
       "id": "384394938434ubhbfg",
       "fullName": "X Man",
       "email": "xman@gmail.com",
-      "isDelete": true
+      "isDelete": false
     },
     {
       "id": "efefefef34r4448gb",
@@ -34,7 +34,7 @@
       "id": "ada1ed9c-beb3-4441-ada2-4d0124c4c653",
       "fullName": "Maqa",
       "email": "test",
-      "isDelete": true
+      "isDelete": false
     },
     {
       "id": "d376e836-4a29-4b68-aa32-37d71a03f6b8",
@@ -49,7 +49,7 @@
       "authorId": "384394938434ubhbfg",
       "title": "Bu bir Kitabdir",
       "description": "lorem lorem lorem ",
-      "isDelete": true
+      "isDelete": false
     },
     {
       "id": "483493gu4brf47uug",
@@ -70,6 +70,13 @@
       "title": "Bu bir Kitabdir",
       "description": "lorem lorem lorem 2",
       "authorId": "efefefef34r4448gb",
+      "isDelete": true
+    },
+    {
+      "id": "6d01dba8-cdfd-421d-93c7-8991fcc52ac2",
+      "title": "Bu bir Kitabdir",
+      "description": "lorem lorem lorem 2",
+      "authorId": "d376e836-4a29-4b68-aa32-37d71a03f6b8",
       "isDelete": false
     }
   ]
