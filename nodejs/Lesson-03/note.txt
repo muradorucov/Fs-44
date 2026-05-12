@@ -29,3 +29,35 @@ change status for author with book's
 id,
 fullname 
 email
+
+
+
+
+authenticate
+authorization
+
+
+// users
+// admins
+// authors
+// books
+
+// Rleationships
+// 1-1
+Example => User - Profile
+
+
+// 1 - N
+One to many
+Example => Author - Books
+
+
+// N - N
+Many to many
+Example => Students - Courses
+
+
+product => comments => 1 - N
+comment => product => 1 - 1
+
+jwt => json web token

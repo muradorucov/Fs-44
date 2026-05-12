@@ -1,82 +1,120 @@
 {
+  "users": [
+    {
+      "id": "38439493843448495",
+      "fullname": "Kamal Kamallı",
+      "email": "kamal@gmail.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "author",
+      "isDelete": false,
+      "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "38439493843448897",
+      "fullname": "Maqa Bagirli",
+      "email": "maqa@gmail.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "admin",
+      "isDelete": false,
+      "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "38439493843448765",
+      "fullname": "Alish Alishli",
+      "email": "alish@gmail.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "admin",
+      "isDelete": false,
+      "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "38439493843448134",
+      "fullname": "Ulviyye Ulviyyeli",
+      "email": "ulviyye@gmail.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "author",
+      "isDelete": false,
+      "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "16c6618a-f641-47de-b4e5-84fd7ecfc449",
+      "fullname": "Murad Orucov",
+      "email": "murad@gmail.com",
+      "password": "123456",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "author",
+      "isDelete": false,
+      "createdAt": "2026-05-12T16:52:14.891Z"
+    },
+    {
+      "id": "37849436-ec4a-4bf2-86de-a9b4332eeda0",
+      "fullname": "Pervin Aslanov",
+      "email": "parvin@gmail.com",
+      "password": "$2b$10$GS3XEr6Je3RQ.xEXJelCGO.klOU1CynFu1HHh4qnnSwYsQ0gQZZ2.",
+      "avatar": "http://localhost:3000/uploads/default.png",
+      "role": "author",
+      "isDelete": false,
+      "createdAt": "2026-05-12T17:00:29.694Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "109985493843448134",
+      "userID": "38439493843448765"
+    },
+    {
+      "id": "01874493843448134",
+      "userID": "38439493843448897"
+    }
+  ],
   "authors": [
     {
       "id": "384394938434ubhbfg",
-      "fullName": "X Man",
-      "email": "xman@gmail.com",
-      "isDelete": false
+      "userID": "38439493843448134",
+      "books": [
+        "ehfv43ury3483439h",
+        "ehfv43ury97346384f"
+      ]
     },
     {
-      "id": "efefefef34r4448gb",
-      "fullName": "X Man 2",
-      "email": "xman2@gmail.com",
-      "isDelete": false
+      "id": "1897374938434ubhb",
+      "userID": "38439493843448495",
+      "books": []
     },
     {
-      "id": "778485ec-0996-4390-8766-2aeeaa4014dc",
-      "fullName": "Murad Oruc",
-      "email": "example@gmail.com",
-      "isDelete": false
+      "id": "e790ee51-1118-41b2-9ce0-564a3ac2cceb",
+      "userID": "16c6618a-f641-47de-b4e5-84fd7ecfc449",
+      "books": []
     },
     {
-      "id": "30d14036-e9d3-43fd-b5ee-ae08e3043264",
-      "fullName": "Murad Oruc",
-      "email": "example@gmail.com",
-      "isDelete": false
-    },
-    {
-      "id": "5b7b9a80-9332-48f2-8d28-170b6b05aa7b",
-      "fullName": "Murad Oruc",
-      "email": "example@gmail.com",
-      "isDelete": false
-    },
-    {
-      "id": "ada1ed9c-beb3-4441-ada2-4d0124c4c653",
-      "fullName": "Maqa",
-      "email": "test",
-      "isDelete": false
-    },
-    {
-      "id": "d376e836-4a29-4b68-aa32-37d71a03f6b8",
-      "fullName": "Kamal Kamalli",
-      "email": "example@gmail.com",
-      "isDelete": false
+      "id": "d9b761a8-18c7-4e85-99eb-7de4c954d713",
+      "userID": "37849436-ec4a-4bf2-86de-a9b4332eeda0",
+      "books": []
     }
   ],
   "books": [
     {
       "id": "ehfv43ury3483439h",
-      "authorId": "384394938434ubhbfg",
-      "title": "Bu bir Kitabdir",
-      "description": "lorem lorem lorem ",
+      "authorID": "384394938434ubhbfg",
+      "title": "Lorem Lorem 4",
+      "introDesc": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "thumbnail": "http://localhost:3000/uploads/default.png",
+      "createdAt": "2024-06-01T12:00:00Z",
       "isDelete": false
     },
     {
-      "id": "483493gu4brf47uug",
-      "authorId": "384394938434ubhbfg",
-      "title": "Lorem lorem 2",
-      "description": "lorem lorem lorem 2",
-      "isDelete": false
-    },
-    {
-      "id": "483493gu4brf47uug",
-      "authorId": "efefefef34r4448gb",
-      "title": "Lorem lorem 3 For X Man 2",
-      "description": "lorem lorem lorem 3 X Man 2",
-      "isDelete": false
-    },
-    {
-      "id": "30946d41-08e1-4aa0-b6d3-b30c02c9268c",
-      "title": "Bu bir Kitabdir",
-      "description": "lorem lorem lorem 2",
-      "authorId": "efefefef34r4448gb",
-      "isDelete": true
-    },
-    {
-      "id": "6d01dba8-cdfd-421d-93c7-8991fcc52ac2",
-      "title": "Bu bir Kitabdir",
-      "description": "lorem lorem lorem 2",
-      "authorId": "d376e836-4a29-4b68-aa32-37d71a03f6b8",
+      "id": "ehfv43ury97346384f",
+      "authorID": "384394938434ubhbfg",
+      "title": "Book Book 4",
+      "introDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "thumbnail": "http://localhost:3000/uploads/default.png",
+      "createdAt": "2024-06-01T12:00:00Z",
       "isDelete": false
     }
   ]
