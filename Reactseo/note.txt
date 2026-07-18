@@ -10,7 +10,7 @@ perconnect , preload
 alt width height 
 title attribute 
 schema 
-sitespeed => cdn,image compress 
+sitespeed => cdn,image compress (WEBP)
 semrush 
 gtmetrix 
 google analitic => gtag manager
@@ -36,6 +36,7 @@ https://www.semrush.com/
 
 
 
+GoogleMaps link and Images => lazy load
 
 
 
@@ -62,3 +63,11 @@ PUBLIC
 
 alish.com/sitemap.xml
 alish.com/icons.svg
+
+
+
+pagespeed 90+
+GtMatrix 60+
+
+GTmarix 90+
+pagespeed 66+

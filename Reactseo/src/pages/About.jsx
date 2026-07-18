@@ -14,8 +14,9 @@ function About() {
           alt="Lorem lorem lorem"
           width={"400px"}
           height={"1000px"}
-          className='w-100 h-250' 
-          />
+          className='w-100 h-250'
+          loading='lazy'
+        />
       </main>
     </>
   )
