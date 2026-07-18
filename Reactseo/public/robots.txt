@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /search
+Disallow: /login
+Disallow: /admin
+Disallow: /admin/*
+
+Sitemap: https://ttm.az/sitemap.xml

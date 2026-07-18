@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "id": "ddb6ba52-8db9-48e7-a2b9-e82be8c33645",
+      "fullname": "Murad Orucov",
+      "email": "orucowmurad@gmail.com",
+      "password": "$2b$10$rFHe9pFj1AsRF5JRufwvauDcoeZAMyTBN3Mu9Dx0udiv9DCbEanGC",
+      "avatar": "http://localhost:3000/uploads/user.png",
+      "role": "author",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-10T13:04:40.062Z"
+    },
+    {
+      "id": "aayyg76-8db9-48e7-a2b9-e82be8c33645",
+      "fullname": "Admin Admin",
+      "email": "admin@gmail.com",
+      "password": "$2b$10$rFHe9pFj1AsRF5JRufwvauDcoeZAMyTBN3Mu9Dx0udiv9DCbEanGC",
+      "avatar": "http://localhost:3000/uploads/user.png",
+      "role": "admin",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-10T13:04:40.062Z"
+    },
+    {
+      "id": "e6a38335-68c0-4746-a29c-726808a0e369",
+      "fullname": "Murad Orucov",
+      "email": "murad@gmail.com",
+      "password": "$2b$10$czD6/LOkNQkW6YAJXYs7hu20ESCpf1tqHElI1micK5FQ3nsHR2p5u",
+      "avatar": "http://localhost:3000/uploads/user.png",
+      "role": "admin",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-10T13:51:40.018Z"
+    },
+    {
+      "id": "e8f0b890-bfa1-4662-a658-62d9fb17bf76",
+      "email": "orucowmurad1@gmail.com",
+      "password": "$2b$10$eTvKxlP/ilHIRFY2p7mISuWYHrxLUt3V6dPLm8EQrUVmDy8NUgMCu",
+      "avatar": "http://localhost:3000/uploads/user.png",
+      "role": "author",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-07-08T15:04:35.363Z"
+    }
+  ],
+  "authors": [
+    {
+      "id": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "userID": "ddb6ba52-8db9-48e7-a2b9-e82be8c33645",
+      "books": [
+        "895c30df-7085-48db-8685-8af5d7e3b927",
+        "bfd5a1f8-b753-4736-b9e2-1b07e4814cbd",
+        "829e1dce-7028-48c0-b994-3d6d70b4f154",
+        "3f29713b-cc54-4de9-8b29-d765fb0fd6a9",
+        "2759671e-55e1-4d3c-b23a-8ebd276ba29b",
+        "526049c7-a72e-4690-b9d9-9f2699488ffb",
+        "589d461d-409d-4e2e-b6b7-d6db2ebf6592",
+        "d395bef1-63ae-45a8-84ab-0e83f18d598c",
+        "a5828852-de76-4e2e-92b3-4b80eddc12f0",
+        "156b8a6e-9214-4105-9a39-73c324388b57",
+        "1c20d0e0-ce1d-46af-ba2e-71fe5ce10e98",
+        "39273ba4-b209-4c36-84fc-2b09ead6cf0c",
+        "76796d26-723f-4c71-a83c-a0bf5008a23e",
+        "1bfe2560-b9ee-4701-972d-d1f1b7753670",
+        "16a03c03-c53f-40f0-b828-ecd4597c259e",
+        "1dd1667e-aac3-488b-bfa6-05f0975d5791"
+      ]
+    },
+    {
+      "id": "54f05a72-e98c-47e5-a122-7ec739315d55",
+      "userID": "e8f0b890-bfa1-4662-a658-62d9fb17bf76",
+      "books": []
+    }
+  ],
+  "books": [
+    {
+      "id": "895c30df-7085-48db-8685-8af5d7e3b927",
+      "title": "Book Test 1",
+      "introDesc": "introDesc for book 1",
+      "description": "description for book 1",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-10T13:16:01.715Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "bfd5a1f8-b753-4736-b9e2-1b07e4814cbd",
+      "title": "Book Test 2 after edit",
+      "introDesc": "introDesc for book 2",
+      "description": "description for book 2",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": false,
+      "createdAt": "2026-06-10T13:16:17.091Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "829e1dce-7028-48c0-b994-3d6d70b4f154",
+      "title": "Book Test 3",
+      "introDesc": "introDesc for book 3",
+      "description": "description for book 3",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-10T13:16:24.901Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "3f29713b-cc54-4de9-8b29-d765fb0fd6a9",
+      "title": "Dolor nihil ad magna",
+      "introDesc": "Velit qui nostrud it",
+      "description": "Pariatur Ut suscipi",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:27:41.574Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "2759671e-55e1-4d3c-b23a-8ebd276ba29b",
+      "title": "Molestiae sed minim ",
+      "introDesc": "Qui odio tempor est",
+      "description": "Minus quia mollitia ",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:28:59.891Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "526049c7-a72e-4690-b9d9-9f2699488ffb",
+      "title": "Necessitatibus quas ",
+      "introDesc": "Molestiae maxime adi",
+      "description": "Modi natus quis dign",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:31:07.199Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "589d461d-409d-4e2e-b6b7-d6db2ebf6592",
+      "title": "Quaerat possimus ve",
+      "introDesc": "Adipisicing sequi hi",
+      "description": "Amet rem consectetu",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": true,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:32:19.674Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "d395bef1-63ae-45a8-84ab-0e83f18d598c",
+      "title": "tEST 4334334",
+      "introDesc": "Ex eum aperiam est a",
+      "description": "Sapiente facilis in ",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:33:30.995Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "a5828852-de76-4e2e-92b3-4b80eddc12f0",
+      "title": "test Etdik",
+      "introDesc": "Assumenda nobis non ",
+      "description": "Quae sunt similique",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:35:11.471Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "156b8a6e-9214-4105-9a39-73c324388b57",
+      "title": "Doloribus nostrud ex",
+      "introDesc": "Consectetur iste exp",
+      "description": "Quis labore do excep",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:52:15.256Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "1c20d0e0-ce1d-46af-ba2e-71fe5ce10e98",
+      "title": "Et labore qui eu mol",
+      "introDesc": "Minus voluptatem Du",
+      "description": "Modi veritatis volup",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:52:27.803Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "39273ba4-b209-4c36-84fc-2b09ead6cf0c",
+      "title": "Dolores magna qui mo",
+      "introDesc": "Distinctio Itaque q",
+      "description": "Nihil minima tempor ",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:53:38.699Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "76796d26-723f-4c71-a83c-a0bf5008a23e",
+      "title": "Mollit fugit molest",
+      "introDesc": "Nulla est quae aliq",
+      "description": "Doloribus cum evenie",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:54:18.620Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "1bfe2560-b9ee-4701-972d-d1f1b7753670",
+      "title": "Aliqua Adipisci del",
+      "introDesc": "Voluptates maiores e",
+      "description": "Aspernatur placeat ",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:56:01.445Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "16a03c03-c53f-40f0-b828-ecd4597c259e",
+      "title": "Ad nemo quia commodi",
+      "introDesc": "Dolor consectetur no",
+      "description": "Aut ad ut sunt excep",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:56:45.435Z",
+      "thumbnail": "http://localhost:3000/uploads/book.jpeg"
+    },
+    {
+      "id": "1dd1667e-aac3-488b-bfa6-05f0975d5791",
+      "title": "Varli Ata Kasib Ata",
+      "introDesc": "Sit velit ad aut al",
+      "description": "Cupiditate est sit",
+      "authorId": "cce5c4e4-e9d2-49f7-ab17-92d4ca987159",
+      "isDelete": false,
+      "isActive": true,
+      "createdAt": "2026-06-17T16:59:06.813Z",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp4xhuTcqKFzhYhDJqPToB24rBrxUvNpFvTfbyDDLTUlBSeikbHTkOjP0&s=10"
+    }
+  ],
+  "admins": [
+    {
+      "id": "aa6ba52-9db9-48e7-a2b9-e82b6cffy6543",
+      "userID": "aayyg76-8db9-48e7-a2b9-e82be8c33645"
+    },
+    {
+      "id": "564f599a-0e86-47d1-8999-6fa3f18a456e",
+      "userID": "e6a38335-68c0-4746-a29c-726808a0e369"
+    }
+  ]
+}

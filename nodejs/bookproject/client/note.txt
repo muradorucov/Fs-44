@@ -1,0 +1,30 @@
+guest => book read, register
+author=> book read, book write, edit, delete, login 
+admin => full access
+
+
+
+home => navbar , login, register. book list 
+login => email, password, login button, forgot password link
+register => fullname, email, password, avatar, register button
+
+
+
+author => login => dashboard 
+admin => login => dashboard 
+
+
+/
+/author 
+/admin
+
+RBAC
+
+
+
+
+base url => http://localhost:3000/books
+/auth/login
+/auth/register
+
+/authors/:id/books

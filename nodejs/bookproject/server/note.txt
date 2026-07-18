@@ -1,0 +1,97 @@
+Book api 
+
+
+book create 
+all books 
+sinlge book 
+edit book 
+delete book 
+change status for book
+
+
+
+id
+title 
+descrption 
+author
+
+
+
+author 
+author create 
+author books 
+sinlge author 
+edit author 
+delete author with book's 
+change status for author with book's
+
+
+id,
+fullname 
+email
+
+
+
+
+authenticate
+authorization
+
+
+// users
+// admins
+// authors
+// books
+
+// Rleationships
+// 1-1
+Example => User - Profile
+
+
+// 1 - N
+One to many
+Example => Author - Books
+
+
+// N - N
+Many to many
+Example => Students - Courses
+
+
+product => comments => 1 - N
+comment => product => 1 - 1
+
+jwt => json web token
+
+
+
+/auth => 
+    login, 
+    logout(authenticate), 
+    register, 
+    forgot password, 
+    reset password(authenticate), 
+    current user(authenticate)
+
+/books=> 
+    get all books(guest only active), 
+    get all books for admin(authenticate, checkRole), 
+    create book (admin,author => authenticate,checkRole)
+    get single book (guest only active)
+    get single book for admin (authenticate, checkRole)
+    edit book => admin (authenticate, checkRole) ; author (authenticate, checkRole, alish)
+    delete book => admin (authenticate, checkRole) ; author (authenticate, checkRole, alish), 
+    change status for book => admin (authenticate, checkRole) ; author (authenticate, checkRole, alish)
+
+/authors => 
+    get all authors => only admin (authenticate, checkRole), 
+    books of author only author (authenticate, checkRole)
+
+/users=> 
+    get all Users =>  only admin (authenticate, checkRole)
+    edit user => admin,author (authenticate, checkRole)
+    change status => only admin (authenticate, checkRole)
+    get single user => only admin (authenticate, checkRole),  
+    delete user => only admin (authenticate, checkRole)
+
+
+/ token => authenticate

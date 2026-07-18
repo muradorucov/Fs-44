@@ -1,0 +1,64 @@
+title
+meta desc 
+meta keyword XXXXXXXXXXX
+canonical
+sitemap 
+robots 
+BREADCRUMBS
+FAQS
+perconnect , preload
+alt width height 
+title attribute 
+schema 
+sitespeed => cdn,image compress 
+semrush 
+gtmetrix 
+google analitic => gtag manager
+search console  => google-site-verification
+schema markup test site  => https://validator.schema.org/
+open graph tag
+
+
+
+text (content manager)
+human (not ai)
+
+
+
+helmet vs prerender
+
+
+https://analytics.google.com/
+https://search.google.com/
+https://pagespeed.web.dev/
+https://gtmetrix.com/
+https://www.semrush.com/
+
+
+
+
+
+
+
+SEM SEO GEO
+
+
+alish.com
+alish.com/admin
+alish.com/login
+
+
+
+
+DEPLOY => BUILD
+
+
+REACT => HOSTING DEPLOY | VPS
+NEXT => ONLY VPS DEPLOY
+
+
+PUBLIC
+
+
+alish.com/sitemap.xml
+alish.com/icons.svg
